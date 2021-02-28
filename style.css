@@ -1,0 +1,203 @@
+h1 {
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    background-color: #ddbf5f;
+}
+
+#head1 {
+    font-size: 50px;
+}
+
+body {
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    background-color: #ddbf5f;
+}
+
+.kB {
+    background-color: #ddbf5f;
+    border: none;
+    font-size: 35px;
+}
+
+#timer {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* #keyboard {
+    font-size: 15px; 
+  } */
+
+#playButton {
+    color: black;
+    background-color: #ddbf5f;
+    font-weight: bold;
+    transition: all 0.5s;
+    border: none;
+    font-size: 30px;
+}
+
+#playButton:hover {
+    color: #000000;
+    background-color: #91720e;
+}
+
+#playButon:active {
+    color: #BBBBBB;
+    border-color: #BBBBBB;
+}
+
+#resetButton {
+    color: black;
+    background-color: #ddbf5f;
+    font-weight: bold;
+    transition: all 0.5s;
+    border: none;
+    font-size: 30px;
+}
+
+#resetButton:hover {
+    color: #000000;
+    background-color: #91720e;
+}
+
+#resetButon:active {
+    color: #BBBBBB;
+    border-color: #BBBBBB;
+}
+
+img {
+    filter: blur(10px);
+}
+
+#ggBackground {
+    width: 1250px;
+    height: 300px;
+    filter: blur(0px);
+}
+
+
+/* LOSER Popup container */
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+/* The actual popup (appears on top) */
+
+.popup .popuptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: rgb(192, 63, 23);
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 15px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 00%;
+    margin-left: -80px;
+}
+
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+
+/* Add animation (fade in the popup) */
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* WINNER Popup container */
+
+.popup1 {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+/* The actual popup (appears on top) */
+
+.popup1 .popuptext1 {
+    visibility: hidden;
+    width: 200px;
+    background-color: rgb(75, 206, 177);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 15px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 0%;
+    margin-left: -80px;
+}
+
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+
+.popup1 .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+
+/* Add animation (fade in the popup) */
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#caption {
+    color: brown;
+}
+
+//HEARTS 
+
+/* #livesLeft {
+    opacity: 0.5;
+  } */

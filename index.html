@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+
+    <audio>
+    <source src="click.wav" type="audio/mpeg">
+    </audio>
+
+
+</head>
+
+<body>
+
+    <img id="ggBackground" src="https://blissfulliz.files.wordpress.com/2016/07/logo-gossip_girl-header.gif" alt="secret pic">
+
+    <h1>and who am I?</h1>
+    <h2>That's one secret I'll never tell...</h2>
+    <h2>you know you'll love me
+        <h2>
+
+            <video width="1250" height="750" controls>
+  <source src="GossipGirlOpening (HD).mp4" type="video/mp4">
+  </video>
+
+            <!--  onclick="loserPopupFunction()">loserPopup! -->
+
+
+            <div id="imageHolder"></div>
+            <!-- <img id = "serena" src="https://static.wikia.nocookie.net/gossipgirl/images/a/a7/SerenaInfobox.jpg/revision/latest?cb=20200318020521" alt="secret pic">
+
+  
+  <img id = "dan" src= "https://static.wikia.nocookie.net/gossipgirl/images/e/e7/DanInfobox.jpg/revision/latest/top-crop/width/360/height/450?cb=20200318020644" alt="secret pic">
+
+  
+  <img id = "blair" src= "https://static.wikia.nocookie.net/p__/images/6/66/Blair-waldorf.jpg/revision/latest/top-crop/width/360/height/360?cb=20191026174513&path-prefix=protagonist" alt="secret pic">
+
+ 
+  <img id = "jenny" src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Jenny_Humphrey_Season_3.jpg/220px-Jenny_Humphrey_Season_3.jpg" alt="secret pic">
+
+ 
+  <img id = "chuck" src= "https://static.wikia.nocookie.net/gossipgirl-megd/images/5/58/Chuck_Bass.png/revision/latest/scale-to-width-down/340?cb=20150612213137" alt="secret pic">
+
+ 
+  <img id = "nate" src="https://static.wikia.nocookie.net/gossipgirl/images/2/25/NateInfobox.jpg/revision/latest/top-crop/width/360/height/360?cb=20200318020747" alt="secret pic">
+
+ 
+  <img id = "Lily" src="https://sites.google.com/site/gossipgirllxorose/_/rsrc/1368050487821/home/gossip-girl-characters/serene-van-der-woodsen/kelly-rutherford.jpg" alt="secret pic">
+
+  
+  <img id = "bart" src="https://static.wikia.nocookie.net/gossipgirl/images/8/80/0107Bart01.jpg/revision/latest?cb=20120507143845" alt="secret pic">
+
+  
+  <img id = "eric" src="https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Eric_Van_Der_Woodsen_Season_3.jpg/220px-Eric_Van_Der_Woodsen_Season_3.jpg" alt="secret pic">
+
+  <img id = "rufus" src="https://static.wikia.nocookie.net/gossipgirl/images/4/42/Gossip_Girl_S1_105.jpg/revision/latest/smart/width/200/height/200?cb=20130105021614" alt="secret pic">
+
+   
+  <img id = "vanessa" src="https://static.wikia.nocookie.net/gossipgirl/images/9/97/Vanessa_Abrams_1.jpg/revision/latest/scale-to-width-down/340?cb=20101104213007" alt="secret pic">  
+  -->
+
+            <div class="popup">
+                <span class="popuptext" id="myPopup">SPOTTED: A Loser! <br>
+  </br>Some might call this a fustercluck, but on the Upper East Side, we call it Sunday Brunch.
+  </span>
+            </div>
+
+            <div class="popup1">
+                <span class="popuptext1" id="myPopup1">SPOTTED: A Winner! <br>
+  </br>When the cat's away, the mice will play. Have fun, little rodents!
+  </span>
+            </div>
+
+            <br>
+            <div id='timer'>
+                TIME:<span></span>
+            </div>
+            </br>
+            <div id='wordRandomize'>
+                <button id="playButton">PLAY</button>
+            </div>
+
+            <div id="blank">
+                <span id="space"></span>
+            </div>
+
+            <div id="image">
+                <span id="picture"></span>
+            </div>
+
+            <div id="reset"> <br>
+                <button id="resetButton">RESET</button>
+            </div>
+            </br>
+
+            <div id="livesLeft">
+                <i class="em em-heart" id="h1" aria-role="presentation" aria-label="HEAVY BLACK HEART"></i>
+                <i class="em em-heart" id="h2" aria-role="presentation" aria-label="HEAVY BLACK HEART"></i>
+                <i class="em em-heart" id="h3" aria-role="presentation" aria-label="HEAVY BLACK HEART"></i>
+                <i class="em em-heart" id="h4" aria-role="presentation" aria-label="HEAVY BLACK HEART"></i>
+                <i class="em em-heart" id="h5" aria-role="presentation" aria-label="HEAVY BLACK HEART"></i>
+            </div>
+
+            <div id="keyboard"> <br><br>
+                <button id='A' class="kB">A</button>
+                <button id='B' class="kB">B</button>
+                <button id='C' class="kB">C</button>
+                <button id='D' class="kB">D</button>
+                <button id='E' class="kB">E</button>
+                <button id='F' class="kB">F</button>
+                <button id='G' class="kB">G</button>
+                <button id='H' class="kB">H</button>
+                <button id='I' class="kB">I</button>
+                <button id='J' class="kB">J</button>
+                <button id='K' class="kB">K</button>
+                <button id='L' class="kB">L</button>
+                <button id='M' class="kB">M</button>
+                <button id='N' class="kB">N</button>
+                <button id='O' class="kB">O</button>
+                <button id='P' class="kB">P</button>
+                <button id='Q' class="kB">Q</button>
+                <button id='R' class="kB">R</button>
+                <button id='S' class="kB">S</button>
+                <button id='T' class="kB">T</button>
+                <button id='U' class="kB">U</button>
+                <button id='V' class="kB">V</button>
+                <button id='W' class="kB">W</button>
+                <button id='X' class="kB">X</button>
+                <button id='Y' class="kB">Y</button>
+                <button id='Z' class="kB">Z</button></br>
+                </br>
+            </div>
+
+
+
+            <script src="script.js"></script>
+
+
+
+</body>
+<h2 id="caption">"They say love makes a family. But on the Upper East Side, everyone knows it’s real estate."<br></br>
+</h2>
+<h1 id="head1">xoxo, Gossip Girl</h1>
+
+</html>
