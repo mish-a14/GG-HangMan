@@ -1,4 +1,7 @@
 # GG-HangMan
+
+PLAY IT HERE: https://mish-a14.github.io/GG-HangMan/
+
 Name of Game: Contemporary HangMan
 
 Introduction: 
